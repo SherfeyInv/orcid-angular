@@ -2179,12 +2179,12 @@
   integrity sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==
 
 "@grpc/grpc-js@^1.0.0":
-  version "1.9.9"
-  resolved "https://registry.npmjs.org/@grpc/grpc-js/-/grpc-js-1.9.9.tgz"
-  integrity sha512-vQ1qwi/Kiyprt+uhb1+rHMpyk4CVRMTGNUGGPRGS7pLNfWkdCHrGEnT6T3/JyC2VZgoOX/X1KwdoU0WYQAeYcQ==
+  version "1.11.2"
+  resolved "https://registry.yarnpkg.com/@grpc/grpc-js/-/grpc-js-1.11.2.tgz#541a00303e533b5efe9d84ed61b84cdf9dd93ee7"
+  integrity sha512-DWp92gDD7/Qkj7r8kus6/HCINeo3yPZWZ3paKgDgsbKbSpoxKg1yvN8xe2Q8uE3zOsPe3bX8FQX2+XValq2yTw==
   dependencies:
-    "@grpc/proto-loader" "^0.7.8"
-    "@types/node" ">=12.12.47"
+    "@grpc/proto-loader" "^0.7.13"
+    "@js-sdsl/ordered-map" "^4.4.2"
 
 "@grpc/proto-loader@^0.5.0":
   version "0.5.6"
@@ -2194,14 +2194,14 @@
     lodash.camelcase "^4.3.0"
     protobufjs "^6.8.6"
 
-"@grpc/proto-loader@^0.7.8":
-  version "0.7.10"
-  resolved "https://registry.npmjs.org/@grpc/proto-loader/-/proto-loader-0.7.10.tgz"
-  integrity sha512-CAqDfoaQ8ykFd9zqBDn4k6iWT9loLAlc2ETmDFS9JCD70gDcnA4L3AFEo2iV7KyAtAAHFW9ftq1Fz+Vsgq80RQ==
+"@grpc/proto-loader@^0.7.13":
+  version "0.7.13"
+  resolved "https://registry.yarnpkg.com/@grpc/proto-loader/-/proto-loader-0.7.13.tgz#f6a44b2b7c9f7b609f5748c6eac2d420e37670cf"
+  integrity sha512-AiXO/bfe9bmxBjxxtYxFAXGZvMaN5s8kO+jBHAJCON8rJoB5YS/D6X7ZNc6XQkuHNmyl4CYaMI1fJ/Gn27RGGw==
   dependencies:
     lodash.camelcase "^4.3.0"
     long "^5.0.0"
-    protobufjs "^7.2.4"
+    protobufjs "^7.2.5"
     yargs "^17.7.2"
 
 "@isaacs/cliui@^8.0.2":
@@ -2322,6 +2322,11 @@
   dependencies:
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
+
+"@js-sdsl/ordered-map@^4.4.2":
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/@js-sdsl/ordered-map/-/ordered-map-4.4.2.tgz#9299f82874bab9e4c7f9c48d865becbfe8d6907c"
+  integrity sha512-iUKgm52T8HOE/makSxjqoWhe95ZJA1/G1sYsGev2JDKUSS14KAgg1LHb+Ba+IPow0xflbnSkOsZcO08C7w1gYw==
 
 "@juggle/resize-observer@^3.3.1":
   version "3.4.0"
@@ -4694,7 +4699,7 @@
   resolved "https://registry.npmjs.org/@types/node/-/node-12.20.55.tgz"
   integrity sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==
 
-"@types/node@>=10.0.0", "@types/node@>=12.12.47", "@types/node@>=13.7.0":
+"@types/node@>=10.0.0", "@types/node@>=13.7.0":
   version "20.8.10"
   resolved "https://registry.npmjs.org/@types/node/-/node-20.8.10.tgz"
   integrity sha512-TlgT8JntpcbmKUFzjhsyhGfP2fsiz1Mv56im6enJ905xG1DAYesxJaeSbGqQmAw8OWPdhyJGhGSQGKRNJ45u9w==
@@ -13438,10 +13443,10 @@ protobufjs@^6.8.6:
     "@types/node" ">=13.7.0"
     long "^4.0.0"
 
-protobufjs@^7.2.4:
-  version "7.2.5"
-  resolved "https://registry.npmjs.org/protobufjs/-/protobufjs-7.2.5.tgz"
-  integrity sha512-gGXRSXvxQ7UiPgfw8gevrfRWcTlSbOFg+p/N+JVJEK5VhueL2miT6qTymqAmjr1Q5WbOCyJbyrk6JfWKwlFn6A==
+protobufjs@^7.2.5:
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/protobufjs/-/protobufjs-7.4.0.tgz#7efe324ce9b3b61c82aae5de810d287bc08a248a"
+  integrity sha512-mRUWCc3KUU4w1jU8sGxICXH/gNS94DvI1gxqDvBzhj1JpcsimQkYiOJfwsPUykUI5ZaspFbSgmBLER8IrQ3tqw==
   dependencies:
     "@protobufjs/aspromise" "^1.1.2"
     "@protobufjs/base64" "^1.1.2"
