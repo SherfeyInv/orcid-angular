@@ -52,7 +52,7 @@
     "@angular/router": "^16.2.8",
     "@angular/service-worker": "^16.2.8",
     "@orcid/bibtex-parse-js": "0.0.25",
-    "@storybook/addon-a11y": "^7.3.0",
+    "@storybook/addon-a11y": "^8.2.9",
     "browserslist": "^4.19.1",
     "browserslist-useragent-regexp": "^3.0.0",
     "core-js": "^3.6.5",
