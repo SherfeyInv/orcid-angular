@@ -232,10 +232,10 @@
     tslib "^2.3.0"
     yargs "^17.2.1"
 
-"@angular/compiler@^16.2.8":
-  version "16.2.11"
-  resolved "https://registry.npmjs.org/@angular/compiler/-/compiler-16.2.11.tgz"
-  integrity sha512-9q/E3uurvoQbdTTWDyWCLpzmfJ4+et7SUca1/EljD/X7Xg2FNU5GpTMutBtWFL7wDyWk1oswivuq9/C4GVW7fA==
+"@angular/compiler@^18.2.2":
+  version "18.2.5"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-18.2.5.tgz#e0af18fddf4aad05d154d67d883eef9b6a194159"
+  integrity sha512-vcqe9x4dGGAnMfPhEpcZyiSVgAiqJeK80LqP1vWoAmBR+HeOqAilSv6SflcLAtuTzwgzMMAvD2T+SMCgUvaqww==
   dependencies:
     tslib "^2.3.0"
 
