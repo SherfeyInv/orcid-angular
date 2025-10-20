@@ -21,7 +21,7 @@ COPY scripts/ scripts/
 
 RUN yarn build:${build_env}
 
-FROM nginx:1.26.2-alpine
+FROM nginx:1.26.3-alpine
 #FROM nginx:1.26.2-bookworm
 
 RUN mkdir -p /usr/share/nginx/html/orcid-web-frontend
