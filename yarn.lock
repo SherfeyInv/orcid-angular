@@ -301,10 +301,10 @@
     yargs "18.0.0"
     zod "3.25.75"
 
-"@angular/common@^20.1.6":
-  version "20.1.6"
-  resolved "https://registry.yarnpkg.com/@angular/common/-/common-20.1.6.tgz#4263607cc53c8f25d66954e8cdac371ad8a365d5"
-  integrity sha512-VwV6u5y5NQg5u+Z5A50MCJNpxseny9Rv+csZe9zckH0ylqy9tLowbG6L7jrts36Ze2lwqRag0b+wB0TgrvaT0w==
+"@angular/common@^20.3.14":
+  version "20.3.15"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-20.3.15.tgz#a261e9bb14124db6e791a59ca17f0dea2f938b1c"
+  integrity sha512-k4mCXWRFiOHK3bUKfWkRQQ8KBPxW8TAJuKLYCsSHPCpMz6u0eA1F0VlrnOkZVKWPI792fOaEAWH2Y4PTaXlUHw==
   dependencies:
     tslib "^2.3.0"
 
